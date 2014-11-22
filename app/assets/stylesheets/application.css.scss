@@ -1,0 +1,32 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.body {
+	background-color: #097284;
+}
+
+.wrap {
+	background-color: #F5F7DE;
+}
+
+.notice {
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.alert {
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#error_explanation {
+	color: red;
+}
+
+.btn-black {
+	background-color: black;
+}
+
+
