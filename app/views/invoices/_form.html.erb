@@ -29,8 +29,14 @@
   </div>
   <div class="field">
     <%= f.label "employee id" %><br>
-    <%= f.number_field :employee_id %>
+    <%= f.number_field :employee_id, placeholder: "Enter or select id" %>
+  </div>
+
+  <div class="field">
+    <%= f.label "Status" %><br>
+    <%= f.select(:status_type, options_for_select([['Paid', 'Paid'], ['Pending', 'Pending']]), {include_blank: 'Select the status' }) %>
   </div><br/>
+
   <div class="actions">
     <%= f.submit %>
   </div><br/>
