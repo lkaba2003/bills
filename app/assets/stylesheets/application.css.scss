@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 .body {
-	background-color: #097284;
+	background-color: #032D0B;
 }
 
 .wrap {
@@ -31,6 +31,10 @@
 
 .btn-black:hover, btn.focus {
 	color: white;
+}
+
+.navbar-inverse {
+	background-color: #3D030C;
 }
 
 
